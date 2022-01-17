@@ -80,7 +80,7 @@ def InsertLetter(position, letter):
         board[position] = letter
         if GameIsDraw():
             PrintBoard(board)
-            print("Draw")
+            print("\nDraw")
             exit()
 
         elif GameIsWon():
